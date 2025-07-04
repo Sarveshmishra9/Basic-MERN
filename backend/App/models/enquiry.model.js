@@ -1,5 +1,4 @@
 
-// App/models/enquiry.model.js
 const mongoose = require("mongoose");
 
 const enquirySchema = new mongoose.Schema({
