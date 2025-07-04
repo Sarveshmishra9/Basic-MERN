@@ -1,4 +1,3 @@
-// App/controllers/web/enquiryController.js
 const mongoose = require("mongoose");
 const enquiryModel = require("../../models/enquiry.model");
 
