@@ -8,8 +8,8 @@ let app = express();
 app.use(cors())
 app.use(express.json());
 
-// Routes
-app.use('/api/website/enquiry', enquiryRouter);
+
+app.use('/api/website/enquiry', enquiryRouter);//route
 
 // Connect to MongoDB
 mongoose.connect(process.env.DBURL).then(() => {
