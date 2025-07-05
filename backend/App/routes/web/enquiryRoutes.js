@@ -1,4 +1,4 @@
-// App/routes/web/enquiryRoutes.js
+
 let express = require('express');
 const { enquiryInsert, enquiryList, enquiryDelete, enquiryUpdate } = require('../../controllers/web/enquiryController');
 let enquiryRouter = express.Router();
