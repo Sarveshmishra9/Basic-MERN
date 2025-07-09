@@ -9,9 +9,9 @@ app.use(cors())
 app.use(express.json());
 
 //route
-app.use('/api/website/enquiry', enquiryRouter);//route
+app.use('/api/website/enquiry', enquiryRouter);
 
-// Connect  MongoDB
+// Connect to  MongoDB
 mongoose.connect(process.env.DBURL).then(() => {
     console.log("connected to mongodb");
     app.listen(process.env.PORT || 3000, () => {

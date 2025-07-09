@@ -1,7 +1,7 @@
 let express=require("express")
 let app=express()
-
-app.use(express.json());//Handling JSON Data in ExpressJS
+//Handling JSON Data in ExpressJS
+app.use(express.json());
 
 //custom ye application middleWare
 let checkToken=(req,res,next)=>{
