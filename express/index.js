@@ -3,17 +3,16 @@ let app=express()
 //Handling JSON Data in ExpressJS
 app.use(express.json());
 
-//custom ye application middleWare
-let checkToken=(req,res,next)=>{
+let checkToken=(req,res,next)=>{//custom ye application middleWare
     console.log("Welcome")
     next();
 }
 app.use(checkToken)
 
 
-//routing
 app.get("/",(req,res)=>{
-    res.send({status:1,msg:"Home page API"})
+    res.send({status:1,msg:"Home page API"})//routing
+
 })
 
 app.get("/news",(req,res)=>{
