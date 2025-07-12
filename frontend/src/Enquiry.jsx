@@ -1,5 +1,5 @@
 // frontend/components/Enquiry.jsx
-import React, { useEffect, useState } from 'react';// frontend/components/Enquiry.jsx
+import React, { useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import axios from 'axios';
 import { Button, Label, Textarea, TextInput } from "flowbite-react";
